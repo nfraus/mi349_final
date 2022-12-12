@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,8 +8,6 @@
 
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-
-<a name="top"></a>
 
 <div class="flex-header">
     
@@ -26,9 +25,8 @@
         <a class="anchor" href="#contact">Contact</a>
     </div>
 </div>
-<body>
     <div class="intro-container" id="intro">
-        <img src="images/intro.jpg" style="width:100%">
+        <img src="images/intro.jpg" alt="intro" style="width:100%">
         <div class="centered-title">Nickolas Fraus</div>
         <div class="centered-title2">Video Game Programmer</div>
 
@@ -43,11 +41,12 @@
             <div class="tomb-for-two">
                 <h3>Tomb for Two</h3>
                 <div class="flex-container">
-                    <div class="flex-item" class="flex-container-col">
-                        <div class="flex-item"><img src="images/poster.png" class="side-image"></div>
+                    <div class="flex-item">
+                        <div class="flex-container-col">
+                        <div class="flex-item"><img src="images/poster.png" alt="poster" class="side-image"></div>
                         
                         <div class="flex-item"><button  class="cool-button" onclick="window.location.href='https://spartasoftstudio.itch.io/project-2-dungeon-dash-title-wip';">Play</button></div>
-
+                        </div>
                     </div>   
                     <div class="flex-item">
                         <p class="side-para"></p>
@@ -62,19 +61,19 @@
                             <!-- Full-width images with number and caption text -->
                             <div class="mySlides fade">
                                 <div class="numbertext">1 / 3</div>
-                                <img src="images/turretHideGame.gif" style="width:40vw">
+                                <img src="images/turretHideGame.gif" alt="turret hide" style="width:40vw">
                                 <div class="text">My Explosion VFX</div>
                             </div>
                 
                             <div class="mySlides fade">
                                 <div class="numbertext">2 / 3</div>
-                                <img src="images/turretShootGame.gif" style="width:40vw">
+                                <img src="images/turretShootGame.gif" alt="turret shoot" style="width:40vw">
                                 <div class="text">Caption Two</div>
                             </div>
                 
                             <div class="mySlides fade">
                                 <div class="numbertext">3 / 3</div>
-                                <img src="images/TurretFullGame.gif" style="width:40vw">
+                                <img src="images/TurretFullGame.gif" alt="turret demo" style="width:40vw">
                                 <div class="text">Caption Three</div>
                             </div>
                 
@@ -96,11 +95,12 @@
             <div class="knight-by-night">
                 <h3>Knight by Night</h3>
                 <div class="flex-container">
-                    <div class="flex-container-col" class="flex-item">
-                        <div class="flex-item"><img src="images/kbn_main.png" class="side-image"></div>
+                    <div class="flex-container-col">
+                        <div class="flex-item">
+                        <div class="flex-item"><img src="images/kbn_main.png" alt="knight by night" class="side-image"></div>
                         
                         <div class="flex-item"><button  class="cool-button" onclick="window.location.href='https://spartasoftstudio.itch.io/spartasoft-studio-dream-game';">Play</button></div>
-
+                        </div>
                     </div>   
                     <div class="flex-item">
                         <p class="side-para">Knight by Knight is a singleplayer story-adventure game, fighting off enemies to save the townspeople from their bad dreams. In this project I collaborated on a Unity project of 30 people, within a team of 10 programmers. I programmed the enemy behaviors, the health system, and fixed bugs nearing our release.</p>
@@ -108,24 +108,24 @@
                 </div>
             </div>
         </div>
+        </div>
         
         <div class="resume" id="resume">
             <h1>Resume</h1>
             <div class="flex-container">
-                <div class="flex-item"><img src="images/resume.png" class="side-image"></div>
+                <div class="flex-item"><img src="images/resume.png" alt="resume" class="side-image"></div>
                 
                 <div class="flex-item">
-                    <a href="NickolasFrausResume.pdf" download>
+                    <form method="get" action="NickolasFrausResume.pdf">
                         <button class="cool-button">Download</button>
-                    </a>
+                    </form>
                 </div>
-            </div>
+             </div>
         </div>
     </div>
 
     <div class="contact" id="contact">
         <h1>Contact</h1>
-        <section>
             <form action="form.php">
                 <ul class="flex-form">
                     <li class="flex-form-item">
@@ -137,10 +137,10 @@
                         <input type ="text" name="Email" id="Email" placeholder="Email" required>
                     </li>
                     <li class="flex-form-item">
-                        <select id="Reason" name="Reason" placeholder="Reason for Contacting">
+                        <select id="Reason" name="Reason">
                             <option value="Contracting">Contracting</option>
                             <option value="Contracting">Other</option>
-                            <option selected disabled hidder>Select Reason</option>
+                            <option selected disabled hidden>Select Reason</option>
 
                         </select>
                     </li>
@@ -152,7 +152,6 @@
                     </li>
                 </ul>
             </form>
-        </section>
         </div>
     <script src="portfolio.js"></script>
-</body>
+</html>
