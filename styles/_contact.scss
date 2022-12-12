@@ -1,0 +1,31 @@
+.contactform{
+    display:flex;
+    background-color: #999;
+    border-radius: 3px;
+    padding: 1.8px;
+}
+
+.form-comment{
+    margin-right: 2em;
+    display: flex;
+}
+.form-comment > textarea{
+    flex:2;
+    min-width: 20em;
+}
+.form-contact{
+    flex:1;
+}
+.form-contact input{
+    width: 100%
+}
+.form-contact input,
+.form-contact button{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.form-contact button{
+    background:gray;
+    color: white;
+    border: 0;
+}
