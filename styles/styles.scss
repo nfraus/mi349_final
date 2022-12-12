@@ -305,5 +305,13 @@ li.flex-form-item{
     flex:1;
     align-self: center;
 }
+.flex-gallery-item{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+    width:40%;
+    padding:10px;
+}
 @import './contact';
 @import './slideshow';

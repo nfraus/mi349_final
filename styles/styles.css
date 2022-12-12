@@ -290,6 +290,15 @@ li.flex-form-item {
   align-self: center;
 }
 
+.flex-gallery-item {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  width: 40%;
+  padding: 10px;
+}
+
 .contactform {
   display: flex;
   background-color: #999;
